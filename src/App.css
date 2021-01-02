@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  
+}
+body{
+  background-color: lightseagreen;
+}
+h1.question{
+  font-size: 22px;
+}
+button.btnAnswer{
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  background: skyblue;
+  color: black;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button.btnAnswer:hover{
+  opacity: 0.5;
+}
+.scoreWrapper{
+  position: absolute;
+  margin-top: 20px;
+  border: none;
+  width: 100%;
+  background: teal;
+}
+
+.greeting{
+  font-size: 30px;
+  color: black
+}
